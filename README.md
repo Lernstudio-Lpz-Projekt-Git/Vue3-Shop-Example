@@ -10,7 +10,27 @@ NPM 6.14.15
 NODE 12.22.7
 NPM 6.14.15
 
-## Befehle
-`npm install` ist der Befehl, der alle Packages installiert und alle Abhänigkeiten auflöst.
+## Project setup
+Alle Packages installiert und die Abhänigkeiten auflösen.
+```
+npm install
+```
 
-`npm run serve` ist der Befehl, der für das Starten der Umgebung erforderlich ist, alles auf einmal baut und auf Änderungen wartet. Hierbei wird ein Liveserver inkl. Browser-Refresh gestartet.
+### Compiles and hot-reloads for development
+Starten die Umgebung, baut die App und wartet auf Änderungen. Hierbei wird ein Liveserver inkl. Browser-Refresh gestartet.
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

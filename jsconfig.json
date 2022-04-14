@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "baseUrl": "./",
+    "moduleResolution": "classic",
+    "paths": {
+      "@/*": [
+        "./src/*",
+      ],
+      "@/assets/img/*": [
+        "./src/assets/img/*",
+      ],
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "include": [
+      "./src/**/*"
+    ]
+  }
+}
